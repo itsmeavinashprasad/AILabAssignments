@@ -1,6 +1,6 @@
 # Indian Institute of Engineering Science & Technology, Shibpur
 ## Department of Computer Science & Technology
-### 8th Semester Artificial Intelligence Laboratory
+### 8th Semester, Artificial Intelligence Laboratory
 #### ASSIGNMENT- 1
 #### (Simple List Processing)
 
