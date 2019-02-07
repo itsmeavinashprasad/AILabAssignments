@@ -14,6 +14,9 @@ sum([X | Rest], Sum):-
 	Sum is X+Sum1.
 
 /* avg of list */
+avg([], 0):-
+	!.
+
 avg(L, Avg):-
 	len(L, Len),
 	sum(L, Sum),

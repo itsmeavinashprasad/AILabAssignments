@@ -1,6 +1,7 @@
 /* length of a list */
 
-len([],0).
+len([],0):-
+	!.
 
 len([X | Rest], Len):-
 	len(Rest, Len1),
