@@ -5,7 +5,8 @@ max(X,Y,Y):-
 	X < Y.
 
 /* max in list */
-max_list([X],X).
+max_list([X],X):-
+	!.
 
 max_list([X | Rest], Max):-
 	max_list(Rest, Max1),
