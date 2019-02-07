@@ -1,3 +1,5 @@
+/* consult(rec_sub)*/
+
 /* To divide two integers recursively and get the quotient */
 
 /* when Divisor is 0, print message */
@@ -45,7 +47,7 @@ rec_div(Dividend, Divisor, Result, Remainder):-
 	Dividend >= 0,
 	Divisor >= 0,
 	Dividend >= Divisor,
-	Dividend_1 is Dividend - Divisor,
+	rec_sub(Dividend, Divisor, Dividend_1),
 	rec_div(Dividend_1, Divisor, Result_1, Remainder),
 	Result is Result_1+1.
 	

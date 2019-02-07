@@ -1,3 +1,5 @@
+/* consult("q9_recursive_addition"). */
+
 /* To multiply two integers recursively */
 rec_mul(X, 0, 0):-
 	!.
@@ -28,4 +30,4 @@ rec_mul(N1, N2, Result):-
 rec_mul(N1, N2, Result):-
 	N2_2 is N2-1,
 	rec_mul(N1, N2_2, Result_1),
-	Result is Result_1+N1.
+	rec_add(N1, Result_1, Result).

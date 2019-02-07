@@ -1,3 +1,4 @@
+/* consulrt(rec_mul) */
 /* To find the square root of an integer */
 
 sqrt(N, Result):-
@@ -6,12 +7,12 @@ sqrt(N, Result):-
 	Result is Result_1.
 
 sqrt_2(N, Probe, Result):-
-	Result_1 is Probe*Probe,
+	rec_mul(Probe, Probe, Result_1),
 	Result_1 > N,
 	Result is Probe-1,!.
 
 sqrt_2(N, Probe, Result):-
-	Result_1 is Probe*Probe,
+	rec_mul(Probe, Probe, Result_1),
 	Result_1 =< N,
 	Probe_1 is Probe+1,
 	sqrt_2(N, Probe_1, Result_2),

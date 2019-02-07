@@ -1,12 +1,4 @@
-/* To recursively add two integers */
-rec_add(X, 0, X):-
-	!.
-
-rec_add(N1, N2, Result):-
-	N2 > 0,
-	N2_2 is N2-1,
-	rec_add(N1, N2_2, Result_1),
-	Result is Result_1+1.
+/* consult("q9_recursive_addition"). */
 
 /* To subtract two integers recursively */
 rec_sub(N1, 0, N1):-

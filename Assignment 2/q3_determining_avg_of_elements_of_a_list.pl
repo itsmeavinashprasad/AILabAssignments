@@ -1,10 +1,4 @@
-/* length of a list */
-
-len([],0).
-
-len([X | Rest], Len):-
-	len(Rest, Len1),
-	Len is Len1+1.
+/* consult(q2_determining_length_of_a_list) */
 
 /* sum of all elements */
 sum([],0).

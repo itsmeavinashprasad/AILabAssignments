@@ -3,8 +3,13 @@
 /* consecutively and in the same order. */
 
 subList([], _).
-subList([X|A], [X|B]):- my_prefix(A, B), !.
-subList([X|A], [Y|B]):- subList([X|A], B).
+
+subList([X|A], [X|B]):- 
+	my_prefix(A, B), !.
+
+subList([X|A], [Y|B]):- 
+	subList([X|A], B).
 
 my_prefix([], _).
-my_prefix([X|L], [X|M]):- my_prefix(L, M).
+my_prefix([X|L], [X|M]):- 
+	my_prefix(L, M).
