@@ -1,8 +1,8 @@
 # Indian Institute of Engineering Science & Technology, Shibpur
 ## Department of Computer Science & Technology
 ### 8th Semester, Artificial Intelligence Laboratory
-#### ASSIGNMENT- 2
-#### (Arithmetic in Prolog)
+#### ASSIGNMENT- 3
+#### (Cut, List Processing-II, Set)
 
 ---
 
