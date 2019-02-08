@@ -1,4 +1,5 @@
 /* consulrt(rec_mul) */
+/* consulrt(rec_add) */
 /* To find the square root of an integer */
 
 sqrt(N, Result):-
