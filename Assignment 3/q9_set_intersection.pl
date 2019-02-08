@@ -1,6 +1,8 @@
 /* consult(our_member1) */
 
 /* To determine intersection of two sets. */
+
+/* if first set intersection is 2nd set */
 set_intersection([], L, []):- 
 	!.
 
