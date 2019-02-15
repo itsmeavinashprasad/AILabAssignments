@@ -1,8 +1,10 @@
-% wrapper
+/* To find factorial N using accumulator */
+
+/* wrapper */
 fact(N, Result):-
 	fact_acc(N, 1, Result).
 
-% break condition
+/* break condition */
 fact_acc(0, Ac, Ac):-
 	!.
 
