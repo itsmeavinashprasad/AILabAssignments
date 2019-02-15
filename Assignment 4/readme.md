@@ -10,7 +10,10 @@
 2. To find length of a list using accumulator.
 3. To remove duplicate elements from a list using accumulator.
 4. \*To remove duplicate elements from a list without using accumulator.
-5. \*To reverse a list using accumulator. For the problems 6 - 16 assume L is a list of terms.
+5. \*To reverse a list using accumulator. 
+
+For the problems 6 - 16 assume L is a list of terms.
+
 6. \*has_duplicate(L), that determines whether list L has duplicate elements.
 7. \*remove_every_other(L, L1) that is true if list L1 is just list L with every other element removed (the  two lists should have the same first element).
 8. \*cutlast(L, L1) that defines L1 to be obtained from L with last element removed.
