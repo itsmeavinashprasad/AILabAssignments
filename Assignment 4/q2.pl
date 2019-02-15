@@ -1,1 +1,0 @@
-aman(A, [B|Rest]).
