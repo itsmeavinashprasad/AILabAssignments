@@ -12,14 +12,16 @@
 4. \*To remove duplicate elements from a list without using accumulator.
 5. \*To reverse a list using accumulator. For the problems 6 - 16 assume L is a list of terms.
 6. \*has_duplicate(L), that determines whether list L has duplicate elements.
-7. \*remove_every_other(L, L1) that is true if list L1 is just list L with every other element removed (the  wo lists should have the same first element).
+7. \*remove_every_other(L, L1) that is true if list L1 is just list L with every other element removed (the  two lists should have the same first element).
 8. \*cutlast(L, L1) that defines L1 to be obtained from L with last element removed.
 9. \*trim(N, L, L1) that defines L1 to be obtained from L with first N elements removed.
 10. \*trimlast(N, L, L1) defines that L1 to be obtained from L with last N elements removed.
 11. \*exchange_first_last(L, L1), defines that L1 to be obtained from L with first and last elements exchanged. 
+```
 	That is, 
 	?-exchange_first_last([a, b, c, d, e], X). 
 	X= [e, b, c, d, a] 
+```
 12. \*circular_left_shift(L, L1). 
 	That is, 
 	if L= [a, b, c, d, e, f] 
