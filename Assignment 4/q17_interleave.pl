@@ -1,4 +1,6 @@
-/* interleave() */
+/* Interleave alternate elements of L1 and L2 into L. For example,	*/
+/*			if L1= [a, b, c] and									*/
+/* 			L2= [1, 2], then L= [a, 1, b, 2, c]						*/
 
 interleave([],[],[]):-
 	!.
