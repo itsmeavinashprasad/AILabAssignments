@@ -1,3 +1,9 @@
+/* Transpose L1, L2 into L. 					*/
+/* That is, 									*/
+/*	if L1= [a, b, c] and L2= [1, 2, 3], then	*/
+/*	L= [(a, 1), (b, 2), (c, 3)]					*/
+
+
 transpose([],[],[]):-
 	!.
 
