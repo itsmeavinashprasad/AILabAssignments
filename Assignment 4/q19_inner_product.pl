@@ -1,3 +1,6 @@
+/* Suppose that L1 and L2 are lists of numeric values. Find Inner product 	*/
+/* (L1, L2, X) that defines X to be inner product of two vectors L1, L2. 	*/
+
 inner_product([],[],0):-
 	!.
 
