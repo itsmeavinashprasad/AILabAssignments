@@ -1,5 +1,6 @@
 /* To delete two middle elements from an even-numbered list L into a list L1 */
 
+
 delete_middle_even([],[]):-
 	!.
 
