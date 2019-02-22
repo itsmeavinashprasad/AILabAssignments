@@ -1,5 +1,3 @@
-/* consult(q5) */
-
 /* circular_left_shift(L, L1). 			*/
 /* That is,								*/
 /* 	if L= [a, b, c, d, e, f] then		*/
