@@ -1,4 +1,4 @@
-/* delete_middle_odd() */
+/* To delete the middle element from an odd-numbered list L into a list L1 */
 
 delete_middle_odd([],[]):-
 	!.
