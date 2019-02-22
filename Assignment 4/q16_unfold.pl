@@ -1,4 +1,6 @@
-/* unfold() */
+/* unfold (L, L1) that reverses the elements of (an odd numbered) list L, 		*/
+/* from 1 to middle-1 elements and middle+1 to last element and store the		*/
+/* result in L1 																*/
 
 
 unfold([],[]):-
