@@ -1,4 +1,6 @@
-% insert all elements of unordered list
+% consult(insert_bst)
+% consult(in_order)
+
 sort_bst(UnsortedList, SortedList):-
 	insert_all(UnsortedList, nil, BST),
 	write(BST),
