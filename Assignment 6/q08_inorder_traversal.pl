@@ -1,8 +1,8 @@
 in_order(nil, []).
 in_order(bst(Left, Root, Right), L):-
-	in_order(Left, L1),
-	in_order(Right, L2),
-	append(L1, [Root|L2], L).
+	in_order(Left, L1),									% get in order traversal outcome of left subtree
+	in_order(Right, L2),								% get in order traversal outcome of right subtree
+	append(L1, [Root|L2], L).							% join L1, Root, L2
 
 
 

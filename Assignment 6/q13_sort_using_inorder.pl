@@ -2,10 +2,13 @@
 % consult(in_order)
 
 sort_bst(UnsortedList, SortedList):-
-	insert_all(UnsortedList, nil, BST),
-	write(BST),
-	in_order(BST, SortedList).
+	insert_all(UnsortedList, nil, BST),				% insert all elements
+	write("==> Resultant BST: "),
+	writeln(BST),
+	in_order(BST, SortedList).						% return list obtained in order traversal
 
+
+% inserts all elements in the list in BST, using Accumulator
 insert_all([], BST, BST).
 insert_all([Head|Rest], AccTree, Tree):-
 	insert_bst(Head, AccTree, AccTree1),

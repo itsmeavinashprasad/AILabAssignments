@@ -1,3 +1,4 @@
+% bt is bst if left and right subtree is bst
 is_bst(bst(nil , Root , nil)):-
 	!.
 is_bst(bst(Left , Root , Right)):-
@@ -8,7 +9,7 @@ is_bst(bst(Left , Root , Right)):-
 is_bst_left(Root, nil):-
 	!.
 is_bst_left(Root, bst(Left, Root2, Right)):-
-	Root2 =< Root,
+	Root2 =< Root,								% if root <= parent
 	is_bst_left(Root2, Left),
 	is_bst_right(Root2, Right).
 
@@ -16,7 +17,7 @@ is_bst_left(Root, bst(Left, Root2, Right)):-
 is_bst_right(Root, nil):-
 	!.
 is_bst_right(Root, bst(Left, Root2, Right)):-
-	Root2 >= Root,
+	Root2 >= Root,								% if root >= parent
 	is_bst_left(Root2, Left),
 	is_bst_right(Root2, Right).	
 
